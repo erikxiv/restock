@@ -5,12 +5,6 @@
 ## Table of Contents
 
 * [Install and start](#install-and-start)
-* [Resources](#resources)
-  * [Notification](#notification-resource)
-  * [Agent](#agent-resource)
-  * [Transfer](#transfer-resource)
-* [Interfaces](#interfaces)
-  * [Administrator](#administrator-interface)
 
 ## Install and start
 
