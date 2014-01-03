@@ -5,6 +5,9 @@
   "description": "Mock REST interfaces using soapUI",
   "contributors": [ 
   ],
+  "repository": {
+    "url": "https://github.com/erikxiv/restock.git"
+  },
   "main": "./lib/restock",
   "keywords" : [
     "rest",
