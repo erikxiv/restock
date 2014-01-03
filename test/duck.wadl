@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<application xmlns="http://wadl.dev.java.net/2009/02" xmlns:tns="urn:duck" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<grammars/>
+	<resources base="http://localhost:3391/">
+		<resource path="ducks">
+			<method name="GET"/>
+			<method name="POST"/>
+			<resource path="{duckId}">
+				<param name="duckId" required="true" style="template"/>
+				<method name="PUT"/>
+				<method name="DELETE"/>
+			</resource>
+		</resource>
+	</resources>
+</application>
