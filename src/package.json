@@ -1,0 +1,38 @@
+{
+  "name": "restock",
+  "version": "0.1.0",
+  "author": "Erik Larsson <erik.larsson@musiker.nu>",
+  "description": "Mock REST interfaces using soapUI",
+  "contributors": [ 
+  ],
+  "main": "./lib/restock",
+  "keywords" : [
+    "rest",
+    "node",
+    "mock",
+    "soapUI"
+  ],
+  "bin": {
+    "restock": "./bin/restock"
+    },
+  "dependencies" : {
+    "restify": "2.6.x"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  },
+  "jshintConfig" : {
+    "node": true,
+    "camelcase": true,
+    "curly": true,
+    "forin": true,
+    "freeze": true,
+    "undef": true,
+    "unused": true,
+    "strict": true,
+    "trailing": true,
+    "globals" : {
+    }
+  }
+}
