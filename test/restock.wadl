@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<application xmlns="http://wadl.dev.java.net/2009/02" xmlns:tns="urn:npmjs.org:restock:v1" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<grammars/>
+	<resources base="http://localhost:3390/">
+		<resource path="sessions">
+			<method name="POST"/>
+			<resource path="{sessionId}">
+				<param name="sessionId" required="true" style="template"/>
+				<method name="PUT"/>
+				<method name="DELETE"/>
+				<resource path="requests">
+					<method name="POST"/>
+					<resource path="{requestId}">
+						<param name="requestId" required="true" style="template"/>
+						<method name="PUT"/>
+					</resource>
+				</resource>
+			</resource>
+		</resource>
+	</resources>
+</application>
