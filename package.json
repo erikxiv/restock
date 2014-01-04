@@ -1,6 +1,6 @@
 {
   "name": "restock",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "author": "Erik Larsson <erik.larsson@musiker.nu>",
   "description": "Mock REST interfaces using soapUI",
   "contributors": [],
